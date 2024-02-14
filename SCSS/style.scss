@@ -1,0 +1,17 @@
+
+@use 'custome';
+
+// import components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// import section
+@use 'section/companies';
+@use 'section/courses';
+@use 'section/intro-section';
+@use 'section/navbar';
+@use 'section/testimonials';
+@use 'section/footer';
+@use 'section/faq';

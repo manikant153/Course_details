@@ -1,0 +1,127 @@
+.testimonials {
+    background-color: #e70b0b;
+    padding: 100px 0;
+    border: 5px solid #c11314;
+
+    .testimonial {
+        // background-color: rgba(255, 255, 255, 0.8);
+        background-color:#b30000;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: translateY(5px);
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color:wheat;
+        }
+
+        .author {
+            font-style: italic;
+            color: wheat;
+        }
+
+        .testimonial-icon {
+            font-size: 36px;
+            color:wheat;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-img {
+            max-width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            // border: 5px solid #c11314;
+            transition: border-color 0.3s ease;
+
+            &:hover {
+                border-color: #b00a0a;
+            }
+        }
+
+        .category {
+            font-size: 16px;
+            font-weight: bold;
+            color: #c11314;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.intro-section {
+    background-color: #e70b0b;
+    padding: 50px 0;
+    margin-top: 4rem;
+    color: wheat;
+    text-align: center;
+
+    .intro-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .course-category {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .course {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #b30000;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.10);
+            }
+
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                color: wheat;
+                font-size: 24px;
+                margin-bottom: 10px;
+                text-decoration: none;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+        }
+    }
+}
+
+.container .intro-content .course-category a {
+    text-decoration: none;
+}
+
+.navbar .container .collapse ul li a {
+    color: white;
+}
+
+.testimonials{
+    .container{
+        .row{
+            div{
+                h2,p{
+                    color:wheat;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+Here we will create the structure of the html
+    
+    companies.scss
+    courses.scss
+    faq.scss
+    get.scss
+    intro.scss
+    job.scss
+    nav.scss
+    testimonial.scss

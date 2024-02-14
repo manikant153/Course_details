@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-with-sass",
+  "version": "1.0.0",
+  "description": "learn bootstrap with SASS",
+  "main": "index.js",
+  "scripts": {
+    "convert":"sass --watch SCSS:assets/css"
+  },
+  "keywords": [
+    "learn_bootstrap_with_SASS",
+    "bootstrap_with_SASS"
+  ],
+  "author": "Manikant",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "autoprefixer": "^10.4.17",
+    "bootstrap": "^5.3.2",
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0"
+  }
+}
